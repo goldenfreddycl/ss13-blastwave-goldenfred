@@ -17,7 +17,7 @@
 
 //used to set the default viewport to the user's preference.
 #define VIEWPORT_USE_PREF "use_pref"
-#define WIDESCREEN_VIEWPORT_SIZE "21x15" // NOVA EDIT CHANGE - ORIGINAL: #define WIDESCREEN_VIEWPORT_SIZE "19x15"
+#define WIDESCREEN_VIEWPORT_SIZE "19x15" //We're going back to 19x15 from Nova's 21x15 for non-standard aspect ratio compatability.
 #define SQUARE_VIEWPORT_SIZE "15x15"
 /// Largest viewport possible, required for checking if someone can see an object
 #define LARGEST_VIEWPORT_SIZE WIDESCREEN_VIEWPORT_SIZE
