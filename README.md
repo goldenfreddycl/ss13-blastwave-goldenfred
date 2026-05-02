@@ -19,7 +19,7 @@
 | Blastwave Station Discord | Coming Soon!                                                                                                                           |
 | Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)                                                                               |
 
-This is Blastwave Station's downstream fork of Nova /tg/station created in byond.
+This is Blastwave Station's downstream fork of Nova Sector, which is a fork of /tg/station, created in byond.
 
 **Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
 
