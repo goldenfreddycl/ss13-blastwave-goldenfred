@@ -69,7 +69,7 @@
 		SPECIES_PERK_ICON = "tint-slash",
 		SPECIES_PERK_NAME = "Chemical Immunity",
 		SPECIES_PERK_DESC = "For better or for worse (usually worse), \
-			you cannot process any chemicals. This means the only way to heal you \
+			you cannot process any chemicals. This means the only way you can be healed \
 			is via surgery or the direct application of sutures and ointment- \
 			be very careful with burns and infections!",
 	))
