@@ -1,11 +1,11 @@
 /datum/job/nanotrasen_consultant
 	title = JOB_NT_REP
-	description = "Represent Nanotrasen on the station, argue with the HoS about why he can't just field execute people for petty theft, get drunk in your office."
+	description = "Represent the Solar Federation on the station, argue with everyone about federal law. Be hated as a fed."
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = JOB_CENTCOM
-	minimal_player_age = 14
+	minimal_player_age = 18
 	exp_requirements = 600
 	exp_required_type = EXP_TYPE_CREW
 	exp_required_type_department = EXP_TYPE_COMMAND
@@ -40,7 +40,7 @@
 	job_flags = STATION_JOB_FLAGS | JOB_BOLD_SELECT_TEXT | JOB_CANNOT_OPEN_SLOTS | JOB_ANTAG_PROTECTED
 
 /datum/outfit/job/nanotrasen_consultant
-	name = "Nanotrasen Consultant"
+	name = "Sol Federation Representative"
 	jobtype = /datum/job/nanotrasen_consultant
 
 	belt = /obj/item/modular_computer/pda/nanotrasen_consultant
@@ -48,9 +48,9 @@
 	ears = /obj/item/radio/headset/heads/nanotrasen_consultant
 	gloves = /obj/item/clothing/gloves/combat/naval/nanotrasen_consultant/black
 	uniform =  /obj/item/clothing/under/rank/nanotrasen_consultant
-	suit = /obj/item/clothing/suit/armor/vest/nanotrasen_consultant
+	suit = /obj/item/clothing/suit/fedcoat/capt
 	shoes = /obj/item/clothing/shoes/jackboots
-	head = /obj/item/clothing/head/nanotrasen_consultant
+	head = /obj/item/clothing/head/soft/veteran
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,
 		/obj/item/choice_beacon/ntc = 1,
@@ -68,16 +68,16 @@
 
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/centcom)
 
-	id = /obj/item/card/id/advanced/centcom/station
+	id = /obj/item/card/id/advanced/solfed
 	id_trim = /datum/id_trim/job/nanotrasen_consultant
 
 /obj/item/encryptionkey/headset_cent/ccrep
-	name = "\improper CentCom representative's encryption key"
+	name = "\improper SolFed Representative's encryption key"
 	channels = list(RADIO_CHANNEL_CENTCOM = 1, RADIO_CHANNEL_SECURITY = 1)
 
 /obj/item/radio/headset/heads/nanotrasen_consultant
-	name = "\proper the Nanotrasen consultant's headset"
-	desc = "An official Central Command headset."
+	name = "\proper the SolFed Representative's headset"
+	desc = "An official Sol Federation headset."
 	icon_state = "cent_headset"
 	keyslot = new /obj/item/encryptionkey/headset_com
 	keyslot2 = new /obj/item/encryptionkey/headset_cent/ccrep
@@ -92,13 +92,13 @@
 	AddComponent(/datum/component/wearertargeting/earprotection, list(ITEM_SLOT_EARS))
 
 /obj/effect/landmark/start/nanotrasen_consultant
-	name = "Nanotrasen Consultant"
+	name = "Sol Federation Representative"
 	icon_state = "Nanotrasen Consultant"
 	icon = 'modular_nova/master_files/icons/mob/landmarks.dmi'
 
 /obj/item/clothing/accessory/medal/gold/nanotrasen_consultant
 	name = "medal of diplomacy"
-	desc = "A golden medal awarded exclusively to those promoted to the rank of Nanotrasen Consultant. It signifies the diplomatic abilities of said individual and their sheer dedication to Nanotrasen."
+	desc = "A golden medal awarded exclusively to those promoted to the rank of Sol Federation Representative. It signifies the diplomatic abilities of said individual and their sheer dedication to the Solar Federation."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /datum/outfit/plasmaman/nanotrasen_consultant
@@ -109,14 +109,14 @@
 	head = /obj/item/clothing/head/helmet/space/plasmaman/centcom_official
 
 /obj/item/modular_computer/pda/nanotrasen_consultant
-	name = "nanotrasen consultant's PDA"
+	name = "solfed representative's PDA"
 	inserted_disk = /obj/item/disk/computer/command/captain
-	inserted_item = /obj/item/pen/fountain/green
+	inserted_item = /obj/item/pen
 	greyscale_colors = "#017941#0060b8"
 
 /obj/item/storage/bag/garment/nanotrasen_consultant
-	name = "nanotrasen consultant's garment bag"
-	desc = "A bag for storing extra clothes and shoes. This one belongs to the Nanotrasen consultant."
+	name = "solfed representatives's garment bag"
+	desc = "A bag for storing extra clothes and shoes. This one belongs to the SolFed Representative."
 
 /obj/item/storage/bag/garment/nanotrasen_consultant/PopulateContents()
 	new /obj/item/clothing/shoes/sneakers/brown(src)
@@ -139,7 +139,7 @@
 	new /obj/item/clothing/head/hats/intern(src)
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant
-	name = "nanotrasen consultant's locker"
+	name = "solfed representative's locker"
 	req_access = list(ACCESS_CAPTAIN, ACCESS_CENT_GENERAL)
 	icon_state = "cc"
 	icon = 'modular_nova/master_files/icons/obj/closet.dmi'
@@ -179,9 +179,9 @@
 
 	return selectable_gun_types
 
-/obj/item/pen/fountain/green
-	name = "nanotrasen fountain pen"
-	desc = "It's an expensive green fountain pen. The case may be plastic, but that gold is real!"
+/obj/item/pen/fountain
+	name = "solfed fountain pen"
+	desc = "It's an expensive fountain pen."
 	icon = 'modular_nova/master_files/icons/obj/bureaucracy.dmi'
 	icon_state = "pen-fountain-nt"
 	colour = "#18610D"
