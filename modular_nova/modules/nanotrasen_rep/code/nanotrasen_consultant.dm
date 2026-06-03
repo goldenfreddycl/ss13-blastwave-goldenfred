@@ -1,4 +1,4 @@
-/datum/job/nanotrasen_consultant
+/datum/job/solfed_representative
 	title = JOB_NT_REP
 	description = "Represent the Solar Federation on the station, argue with everyone about federal law. Be hated as a fed."
 	faction = FACTION_STATION
@@ -19,7 +19,7 @@
 		/datum/job_department/central_command
 	)
 
-	outfit = /datum/outfit/job/nanotrasen_consultant
+	outfit = /datum/outfit/job/solfed_representative
 	plasmaman_outfit = /datum/outfit/plasmaman/nanotrasen_consultant
 
 	paycheck = PAYCHECK_COMMAND
@@ -39,9 +39,9 @@
 	nova_stars_only = TRUE
 	job_flags = STATION_JOB_FLAGS | JOB_BOLD_SELECT_TEXT | JOB_CANNOT_OPEN_SLOTS | JOB_ANTAG_PROTECTED
 
-/datum/outfit/job/nanotrasen_consultant
+/datum/outfit/job/solfed_representative
 	name = "Sol Federation Representative"
-	jobtype = /datum/job/nanotrasen_consultant
+	jobtype = /datum/job/solfed_representative
 
 	belt = /obj/item/modular_computer/pda/nanotrasen_consultant
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -69,7 +69,7 @@
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/centcom)
 
 	id = /obj/item/card/id/advanced/solfed
-	id_trim = /datum/id_trim/job/nanotrasen_consultant
+	id_trim = /datum/id_trim/job/solfed_representative
 
 /obj/item/encryptionkey/headset_cent/ccrep
 	name = "\improper SolFed Representative's encryption key"

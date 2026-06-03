@@ -133,7 +133,7 @@
 	armor_type = /datum/armor/clothing_under/rank_blueshield
 
 /*
-*	NT CONSULTANT
+*	SOLFED REP
 */
 //See Blueshield note - tl;dr, this role is a station role, while Centcom.dmi is more event roles
 
@@ -141,7 +141,7 @@
 	icon = 'modular_nova/master_files/icons/obj/clothing/under/command.dmi'
 	worn_icon = 'modular_nova/master_files/icons/mob/clothing/under/command.dmi'
 	worn_icon_digi = 'modular_nova/master_files/icons/mob/clothing/under/command_digi.dmi'
-	desc = "It's a green jumpsuit with some gold markings denoting the rank of \"Sol Federation Representative\"."
+	desc = "It's a black and red jumpsuit with some gold markings denoting the rank of \"Sol Federation Representative\"."
 	name = "solfed representative's jumpsuit"
 	icon_state = "solfed_consult"
 	sensor_mode = SENSOR_COORDS
@@ -149,7 +149,7 @@
 
 /obj/item/clothing/under/rank/nanotrasen_consultant/skirt
 	name = "solfed representative's suitskirt"
-	desc = "It's a green jumpskirt with some gold markings denoting the rank of \"Sol Federation Representative\"."
+	desc = "It's a black and red jumpskirt with some gold markings denoting the rank of \"Sol Federation Representative\"."
 	icon_state = "solfed_consult_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	dying_key = DYE_REGISTRY_JUMPSKIRT

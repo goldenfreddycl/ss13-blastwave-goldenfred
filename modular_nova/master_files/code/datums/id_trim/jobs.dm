@@ -69,7 +69,7 @@
 	)
 	job = /datum/job/blueshield
 
-/datum/id_trim/job/nanotrasen_consultant
+/datum/id_trim/job/solfed_representative
 	assignment = "SolFed Representative"
 	trim_state = "trim_solfed"
 	department_color = COLOR_DARK_RED
@@ -121,7 +121,7 @@
 		ACCESS_CAPTAIN,
 		ACCESS_CHANGE_IDS,
 	)
-	job = /datum/job/nanotrasen_consultant
+	job = /datum/job/solfed_representative
 
 /datum/id_trim/job/corrections_officer
 	assignment = "Corrections Officer"
