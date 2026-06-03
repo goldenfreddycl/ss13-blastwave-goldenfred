@@ -10,7 +10,7 @@
 	exp_required_type = EXP_TYPE_CREW
 	exp_required_type_department = EXP_TYPE_COMMAND
 	exp_granted_type = EXP_TYPE_CREW
-	config_tag = "NANOTRASEN_CONSULTANT"
+	config_tag = "SOLFED_REPRESENTATIVE"
 
 	department_for_prefs = /datum/job_department/captain
 
@@ -20,12 +20,12 @@
 	)
 
 	outfit = /datum/outfit/job/solfed_representative
-	plasmaman_outfit = /datum/outfit/plasmaman/nanotrasen_consultant
+	plasmaman_outfit = /datum/outfit/plasmaman/solfed_representative
 
 	paycheck = PAYCHECK_COMMAND
 	paycheck_department = ACCOUNT_CMD
 
-	display_order = JOB_DISPLAY_ORDER_NANOTRASEN_CONSULTANT
+	display_order = JOB_DISPLAY_ORDER_SOLFED_REPRESENTATIVE
 	bounty_types = CIV_JOB_SEC
 
 	family_heirlooms = list(/obj/item/book/manual/wiki/security_space_law)
@@ -83,7 +83,7 @@
 	keyslot2 = new /obj/item/encryptionkey/headset_cent/ccrep
 
 /obj/item/radio/headset/heads/nanotrasen_consultant/alt
-	name = "\proper the Nanotrasen consultant's bowman headset"
+	name = "\proper the solfed representative's bowman headset"
 	desc = "An official Central Command headset. Protects ears from flashbangs."
 	icon_state = "cent_headset_alt"
 
@@ -101,8 +101,8 @@
 	desc = "A golden medal awarded exclusively to those promoted to the rank of Sol Federation Representative. It signifies the diplomatic abilities of said individual and their sheer dedication to the Solar Federation."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
-/datum/outfit/plasmaman/nanotrasen_consultant
-	name = "Nanotrasen Consultant Plasmaman"
+/datum/outfit/plasmaman/solfed_representative
+	name = "Solfed Representative Plasmaman"
 
 	uniform = /obj/item/clothing/under/plasmaman/centcom_official
 	gloves = /obj/item/clothing/gloves/captain //Too iconic to be replaced with a plasma version
@@ -141,7 +141,7 @@
 /obj/structure/closet/secure_closet/nanotrasen_consultant
 	name = "solfed representative's locker"
 	req_access = list(ACCESS_CAPTAIN, ACCESS_CENT_GENERAL)
-	icon_state = "cc"
+	icon_state = "solfed"
 	icon = 'modular_nova/master_files/icons/obj/closet.dmi'
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant/PopulateContents()
@@ -184,5 +184,5 @@
 	desc = "It's an expensive fountain pen."
 	icon = 'modular_nova/master_files/icons/obj/bureaucracy.dmi'
 	icon_state = "pen-fountain-nt"
-	colour = "#18610D"
+	colour = "#5f1414"
 	custom_materials = list(/datum/material/gold = SMALL_MATERIAL_AMOUNT*7.5)
