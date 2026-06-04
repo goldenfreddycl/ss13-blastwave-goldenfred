@@ -4,7 +4,7 @@
 	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = JOB_CENTCOM
+	supervisors = JOB_SOLFED
 	minimal_player_age = 18
 	exp_requirements = 600
 	exp_required_type = EXP_TYPE_CREW
@@ -50,7 +50,7 @@
 	uniform =  /obj/item/clothing/under/rank/nanotrasen_consultant
 	suit = /obj/item/clothing/suit/fedcoat/capt
 	shoes = /obj/item/clothing/shoes/jackboots
-	head = /obj/item/clothing/head/soft/veteran
+	head = /obj/item/clothing/head/nanotrasen_consultant
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,
 		/obj/item/choice_beacon/ntc = 1,
