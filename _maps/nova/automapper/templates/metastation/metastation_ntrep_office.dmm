@@ -130,6 +130,13 @@
 	pixel_x = -8;
 	pixel_y = 16
 	},
+/obj/item/paper/solfed_rep_guide1{
+	pixel_y = 10
+	},
+/obj/item/paper/solfed_rep_guide2{
+	pixel_y = 4
+	},
+/obj/item/paper/solfed_rep_guide3,
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/nt_rep)
 "x" = (
