@@ -159,15 +159,15 @@
 
 /obj/item/clothing/under/imperial/nanotrasen_consultant
 	name = "solfed representative's naval uniform"
-	desc = "An upper level uniform granted to consultants and representatives alike, representing CentCom's grand naval fleet."
+	desc = "An upper level uniform granted to consultants and solfed representatives alike."
 	icon_state = "/obj/item/clothing/under/imperial/nanotrasen_consultant"
-	greyscale_colors = "#54a57e#54a57e#47464e#373741#ffce5b#ffce5b#f2b050"
+	greyscale_colors = "#b58526#1f1f1f#47464e#373741#ffce5b#ffce5b#f2b050"
 	flags_1 = NONE
 
 /obj/item/clothing/under/imperialskirt/nanotrasen_consultant
 	name = "solfed representative's naval skirt"
-	desc = "An upper level uniform granted to consultants and representatives alike, representing CentCom's grand naval fleet."
-	greyscale_colors = "#54a57e#47464e#373741#ffce5b#ffce5b#f2b050"
+	desc = "An upper level uniform granted to consultants and solfed representatives alike."
+	greyscale_colors = "#b58526#47464e#373741#ffce5b#ffce5b#f2b050"
 	icon_state = "/obj/item/clothing/under/imperialskirt/nanotrasen_consultant"
 	flags_1 = NONE
 

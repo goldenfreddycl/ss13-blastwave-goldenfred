@@ -121,22 +121,14 @@
 /obj/item/storage/bag/garment/nanotrasen_consultant/PopulateContents()
 	new /obj/item/clothing/shoes/sneakers/brown(src)
 	new /obj/item/clothing/glasses/sunglasses/gar/giga(src)
-	new /obj/item/clothing/gloves/combat/naval/nanotrasen_consultant(src)
 	new /obj/item/clothing/gloves/combat/naval/nanotrasen_consultant/black(src)
-	new /obj/item/clothing/suit/hooded/wintercoat/centcom/nt_consultant(src)
 	new /obj/item/clothing/under/rank/nanotrasen_consultant(src)
 	new /obj/item/clothing/under/rank/nanotrasen_consultant/skirt(src)
 	new /obj/item/clothing/under/imperial/nanotrasen_consultant(src)
 	new /obj/item/clothing/under/imperialskirt/nanotrasen_consultant(src)
-	new /obj/item/clothing/under/rank/centcom/officer(src)
-	new /obj/item/clothing/under/rank/centcom/officer_skirt(src)
 	new /obj/item/clothing/head/nanotrasen_consultant(src)
 	new /obj/item/clothing/head/nanotrasen_consultant/beret(src)
-	new /obj/item/clothing/head/beret/centcom_formal/nt_consultant(src)
-	new /obj/item/clothing/head/hats/centhat(src)
-	new /obj/item/clothing/suit/armor/centcom_formal/nt_consultant(src)
-	new /obj/item/clothing/under/rank/centcom/intern(src)
-	new /obj/item/clothing/head/hats/intern(src)
+	new /obj/item/clothing/suit/armor/vest/nanotrasen_consultant/green(src)
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant
 	name = "solfed representative's locker"
@@ -150,11 +142,9 @@
 	new /obj/item/clothing/neck/petcollar(src)
 	new /obj/item/pet_carrier(src)
 	new /obj/item/clothing/suit/armor/vest(src)
-	new /obj/item/disk/computer/command/captain(src)
 	new /obj/item/radio/headset/heads/nanotrasen_consultant/alt(src)
 	new /obj/item/radio/headset/heads/nanotrasen_consultant(src)
 	new /obj/item/storage/photo_album/personal(src)
-	new /obj/item/bedsheet/centcom(src)
 	new /obj/item/storage/bag/garment/nanotrasen_consultant(src)
 
 //Choice Beacon, I hope in the future they're going to be given proper unique gun but this will do.
@@ -178,6 +168,22 @@
 	)
 
 	return selectable_gun_types
+
+/obj/item/paper/solfed_rep_guide1
+	name = "FEDERAL OVERSIGHT DIRECTIVE 12-77"
+	default_raw_text = "</center><center><h3> SUBJECT: ESTABLISHMENT OF SOL FEDERATION REPRESENTATIVE OFFICE</h3></center><hr><br>The NT Consultant program was intended to demonstrate NanoTrasen's capacity for internal self-regulation under federally approved Corporate Regulations. Repeated station reviews have shown systemic failure of internal oversight during high-stress conditions.<br><br>Common findings include:<br>Breakdown of due process during emergencies, unlawful or excessive security enforcement, inconsistent application of sentencing standards, failure of post-incident corrective mechanisms, failure to protect basic Federal civil rights.<br><br>These failures occur despite prior CentCom review and intervention. Therefore, after much negotiation, investigation and legal action, the Federation has determined that internal oversight alone is insufficient as a compliance guarantee.<br><br>The Sol Federation Representative Office is established aboard licensed NanoTrasen stations to provide independent observation of station legal proceedings, documentation of rights compliance and escalation channel to federal authorities when required.<br>This office does not replace NanoTrasen command structures. It operates alongside them as an external oversight presence."
+
+/obj/item/paper/solfed_rep_guide2
+	name = "SOLFED REP - ROLE SUMMARY"
+	default_raw_text = "</center><center><h3> SUBJECT: FUNCTIONAL ROLE OF THE REPRESENTATIVE</center></h3><hr><br>You are <b>NOT</b> station command, <b>NOT</b> security, <b>NOT</b> corporate legal staff(1), and <b>NOT</b> part of NanoTrasen chain of command.<br><font size=1>(1)Although this is true, corporate lawyers share a common goal with you, and working with them is highly recommended and encouraged.</font><br><br>Your core responsibilities include observing station legal and security activity (you are granted limited security access), ensuring compliance with the Federal Declaration of Rights, documenting significant events, receiving complaints from crew, and escalating serious violations to Federation channels.<br>Importantly, your primary focus is not punishment or command intervention, but rights compliance and lawful procedure monitoring. You do not manage daily operations. You monitor whether operations remain legally and constitutionally valid.<br><br>If you ever wish to query the local Federal office, or have a situation elevated to Federal channels, or you require our help to enforce your role, simply send a complaint to our Fax and we may get back to you. Remember that once the situation starts touching Federal territory, that's when you step in.<br><br>Remember that while you may lawfully request station records, observe detentions, trials and security procedures, speak with crew regarding complaints, report findings to CC and Federal authority, declare an incident under federal review consideration, and request preservation of evidence during ongoing incidents, you CANNOT issue orders to station personnel, override Captain or Security authority, alter sentences or release prisoners, obstruct active operations, assume command of station departments, or enforce Corporate Law directly. That is the station crew's job, not yours. If you overstep, we are holding you accountable. We are professionalsm, and we expect you to act so.<br><br><h2>Guide to Federal Procedure</h2><br><br>Say you find out and have concluded that a security officer or authority figure on station has potentially violated a fundemental civil right according to the Federal Declaration of Rights. Here is a good step-by-step faithful process on how to solve this, escalation being the last resort. You do not need to escalate steps further once the situation has been resolved:<br><br><b>1. Identify the violation.</b><br>- Inform the responsible party of the apparent violation.<br>- Request correction, explanation, and justification<br>- Hear their explanation<br><b>2. Issue a Formal Notice of Concern</b><br>- Inform the responsible party that the action appears inconsistent with federal law or protected rights.<br>- Give them an opportunity to rectify the issue<br><b>3. Declare the matter under Federal Review</b><br>- Formally state that the incident is now being documented as a potential federal rights violation. Include, where applicable, relevant evidence, witness statements, and any logs, all of which need to be preserved.<br><b>4. Formally notify station command</b></br>- Usually the Captain, or Acting Captain.<br>- Inform them that a federal review has been initated and explain why.<br><b>5. Escalate externally</b><br>- Should the matter remain unsolved and you conclude that station command has failed to rectify the situation, forward your findings to Federal authorities via Fax and/or Central Command. <b><u>PLEASE STAMP AND SIGN YOUR DOCUMENT FOR VERIFICATION</u></b><br><br>If you have escalated all the way to Step 5, your authority stops here. While your local Federal office is reviewing your findings, you are to monitor the situation. Remember that you are not part of the station crew, nor do you have command authority. The Federal office will decide what happens next. Under no circumstances are you allowed to take Federal law into your own hands."
+
+/obj/item/paper/solfed_rep_guide3
+	name = "FEDERAL DECLARATION OF RIGHTS"
+	default_raw_text = "All citizens of the Federation have the innate and inviolable right to freedom of speech, the right to vote, the right to freedom of religion and conscience, the right to peaceful assembly, the right to petition the government for redress of grievances, the right to due process of law, the right to equal protection under the law, the right to be secure in their persons, homes, papers, and effects against unreasonable searches and seizures, and the right to life, liberty, and property, which shall not be deprived except by due process of law.<br><br>On NanoTrasen stations, these rights remain applicable to all persons under Federation jurisdiction unless lawfully restricted under:<br>- Valid criminal procedure<br>- Emergency statute<br>- and/or Authorized detention conditions.<br><br>Your role is to identify potential violations, including but not limited to:<br>- Denial of charges or explanation of arrest,<br>- Unlawful detention, or unlawful detention duration or conditions,<br>- Arbitrary searches without justification<br>- Unequal or discriminatory enforcement<br>- Suppression of complaints, testimony, or free speech<br>- Extrajudicial punishment or execution<br>- Excessive security force<br>- Unauthorised use of non-lethal and/or lethal force.<br>- Abuse of corporate authority that includes violating these rights<br><br>You do not determine guilt, you determine whether rights were respected."
+
+/obj/item/paper/civil_rights
+	name = "FEDERAL DECLARATION OF RIGHTS"
+	default_raw_text = "All citizens of the Federation have the innate and inviolable right to:<br>- Freedom of speech<br>- Right to Vote<br>- Freedom of religion and conscience<br>- Peaceful assembly<br>- Petition the government for refress of grievances<br>- Due process of law<br>- Equal protection under the law<br>- Be secure in their persons, homes, papers, and effects against unreasonable searches and seizures<br>- Life, liberty, and property, which shall not be deprived except by due process of law.<br><br>On NanoTrasen stations, these rights remain applicable to all persons under Federation jurisdiction unless lawfully restricted under:<br>- Valid criminal procedure<br>- Emergency statute<br>- and/or Authorized detention conditions."
 
 /obj/item/pen/fountain
 	name = "solfed fountain pen"

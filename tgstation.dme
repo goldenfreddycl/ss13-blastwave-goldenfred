@@ -9695,3 +9695,4 @@
 #include "modular_nova\modules\xenomorph\alien.dm"
 #include "modular_nova\modules\xenomorph\queen.dm"
 // END_INCLUDE
+#include "code\modules\paperwork\deskflags.dm"

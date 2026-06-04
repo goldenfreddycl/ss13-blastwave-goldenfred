@@ -425,8 +425,8 @@
 "JQ" = (
 /obj/structure/table/wood,
 /obj/machinery/fax{
-	fax_name = "Nanotrasen Consultant's Office";
-	name = "Nanotrasen Consultant's Fax Machine"
+	fax_name = "Sol Federation Representative's Office";
+	fax_name = "Sol Federation Representative's Fax Machine";
 	},
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/wood,
