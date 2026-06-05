@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/machinery/door/poddoor/preopen{
 	id = "nt_rep_priv";
 	name = "Privacy Shutter"
@@ -172,7 +172,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/nt_rep)
 "B" = (
-/obj/structure/filingcabinet/employment,
+/obj/structure/filingcabinet,
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/nt_rep)
 "C" = (
@@ -197,6 +197,18 @@
 /obj/machinery/light_switch/directional/east,
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood/parquet,
+/area/station/command/heads_quarters/nt_rep)
+"H" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/door/poddoor/preopen{
+	id = "nt_rep_priv";
+	name = "Privacy Shutter"
+	},
+/obj/structure/plaque/static_plaque/golden{
+	name = "NOTICE: Federal Property";
+	desc = "This office and all associated fixtures, records, and communications equipment are the property of the Sol Federation federal government. Unauthorized entry, interference, obstruction of duties, damage to property, or any form of hostile action directed toward this office or its occupant is strictly prohibited. This designation is protected under Federal Law. Any violation, attempted or completed, constitutes a Federal criminal offence and will be subject to investigation and prosecution under applicable statutes. All station personnel are required to respect the operational independence and protected status of this office."
+	},
+/turf/open/floor/plating,
 /area/station/command/heads_quarters/nt_rep)
 "I" = (
 /obj/structure/table/wood,
@@ -248,6 +260,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/cent_com/rep_door,
 /obj/machinery/door/firedoor,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/nt_rep)
 "R" = (
@@ -294,7 +307,7 @@ d
 "}
 (2,1,1) = {"
 p
-a
+H
 f
 s
 v
