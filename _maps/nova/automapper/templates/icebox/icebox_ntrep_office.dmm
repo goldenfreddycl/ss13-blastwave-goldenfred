@@ -579,8 +579,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/central/greater)
 "Pn" = (
-/obj/machinery/door/airlock/corporate{
-	name = "NT Consultant's Office"
+/obj/machinery/door/airlock/shuttle/ferry{
+	name = "Sol Federation Representative's Office"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
